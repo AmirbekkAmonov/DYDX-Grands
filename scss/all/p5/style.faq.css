@@ -41,4 +41,35 @@
     font-size: 0.9em;
     color: #ffffff;
   }
+  .Mirabbos-header {
+    margin-top: 100px;
+    margin-bottom: 80px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+  }
+.Mirabbos-header h3 {
+  font-family: "Circular", sans-serif; ;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: -0.022em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.Mirabbos-header p {
+  font-family: "Circular", sans-serif;
+  font-size: 18px;
+  font-weight: 450;
+  line-height: 24px;
+  letter-spacing: -0.014em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #C8C7D8;
 
+}
