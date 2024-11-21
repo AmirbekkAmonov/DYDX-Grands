@@ -1805,22 +1805,73 @@ footer .container .temur-footer {
   display: none;
 }
 
-.hero-fnt {
-  text-align: center;
+.header-faq {
+  width: 100%;
+  height: 50vh;
+}
+.header-faq .cotainer {
+  display: flex;
+  flex-direction: column;
+}
+.header-faq .hdr-faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header-faq .hdr-faq h1 {
+  margin-bottom: 30px;
+  font-size: 40px;
   color: white;
 }
-
-.nvbr-mnu {
+.header-faq .hdr-faq-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.header-faq .hdr-faq-nav a {
+  color: white;
   text-decoration: none;
-  text-align: center;
-  color: rgb(255, 255, 255);
-  margin-bottom: 50px;
 }
 
-.box {
-  width: 700px;
-  height: 130px;
-  background-color: 255;
+.faq-sec {
+  width: 100%;
+  height: auto;
+}
+.faq-sec-cards {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.faq-sec-cards-card {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #393953;
+  border-radius: 10px;
+}
+.faq-sec-cards-card h2 {
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+}
+.faq-sec-cards-card p {
+  display: flex;
+  justify-content: end;
+  margin-top: -20px;
+  color: white;
+}
+.faq-sec-cards-card h4 {
+  color: white;
+}
+.faq-sec-cards .faq-text h3 {
+  color: white;
 }
 
 .footer {
