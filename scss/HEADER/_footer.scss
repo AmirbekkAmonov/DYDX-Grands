@@ -90,6 +90,7 @@
         display: flex;
         justify-content: start;
         align-items: center;
+        align-items: center;
         gap: 32px;
         @media (max-width: 1000px) {
             width: 100%;
@@ -103,6 +104,7 @@
             width: 92.5%;
             display: flex;
             align-items: center;
+            align-items: center;
             justify-content: space-between;
             gap: 20px;
             flex-wrap: wrap;
@@ -114,9 +116,11 @@
             ul {
                 display: flex;
                 gap: 30px;
+                margin: 0 !important;
                 flex-wrap: wrap;
                 @media (max-width: 700px) {
                     flex-direction: column;
+                    padding-left: 0 !important;
                     gap: 20px;
                 }
                 li {

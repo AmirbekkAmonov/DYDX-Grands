@@ -37,6 +37,7 @@ header {
         ul {
             display: flex;
             gap: 40px;
+            margin: 0 !important;
             li {
                 display: flex;
                     gap: 30px;
@@ -87,7 +88,6 @@ header {
             cursor: pointer;
             @media (max-width: 1000px) {
                 width: 30px;
-
                 display: block;
             }
         }
