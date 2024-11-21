@@ -169,15 +169,29 @@ function toggleAccordion(element) {
 
 
 
-document.querySelectorAll('.accordion-button').forEach(button => {
-  button.addEventListener('click', function () {
-      const icon = this.querySelector('i');
-      if (this.classList.contains('collapsed')) {
-          icon.style.color = 'white'; // Yopiq holatda oq rang
-      } else {
-          icon.style.color = 'white'; // Ochiq holatda ham oq rang
-      }
+
+let mybutton = document.getElementById("myBtn");
+
+// Sahifa pastga aylanganda tugmani ko'rsatish
+window.onscroll = function() {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// Tugma bosilganda sahifani animatsiya bilan yuqoriga qaytarish
+function topFunction() {
+  window.scrollTo({
+    top: 0, 
+    behavior: "smooth" // Silliq animatsiya
   });
-});
+}
+
 
 

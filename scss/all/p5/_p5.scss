@@ -73,3 +73,100 @@
     }
    
 }
+
+.faq-content {
+
+    width: 100%;
+    height: auto;
+    @media (max-width: 500px) {
+        margin-top: 200px;
+        
+    }
+    .faq-cards {
+        padding: 24px;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 20px;
+        @media (max-width: 500px) {
+            width: 95%;
+        }
+        .faq-card {
+            width: 100%;
+            padding: 20px;
+            display: flex;
+            align-items: start;
+            justify-content: center;
+            background-color: #393953;
+            border-radius: 16px;
+            &-text {
+                width: 80%;
+                margin: 0 auto;
+                h3 {
+                    font-family: "Circular", sans-serif;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    letter-spacing: -0.017em;
+                    text-align: left;
+                    text-underline-position: from-font;
+                    text-decoration-skip-ink: none;
+                    color: #fff;
+                    margin-bottom: 8px;
+                }
+                p {
+                    font-family: "Space Mono", sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-align: left;
+                    text-underline-position: from-font;
+                    text-decoration-skip-ink: none;
+                    color: #C8C7D8;
+                    margin-bottom: 16px;
+                }
+                b {
+                    font-family: "Circular", sans-serif;
+                    font-size: 16px;
+                    font-weight: 450;
+                    line-height: 24px;
+                    letter-spacing: -0.011em;
+                    text-align: left;
+                    text-underline-position: from-font;
+                    text-decoration-skip-ink: none;
+                    color: #fff;}
+            }
+            &-price {
+                width: 20%;
+                display: flex;
+                justify-content: end;
+                align-items: center;
+                gap: 10px;
+
+                p {
+                    font-family: "Space Mono", sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-align: right;
+                    text-underline-position: from-font;
+                    text-decoration-skip-ink: none;
+                    color: #fff;
+                } 
+                img {
+                    width: 20px;
+                    height: 20px;
+                    cursor: pointer;
+                } 
+                span {
+                    @media (max-width: 700px) {
+                        display: none;
+                    }
+                }  
+            }
+        }
+    }
+}
