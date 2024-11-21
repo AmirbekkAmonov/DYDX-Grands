@@ -1,0 +1,90 @@
+.bilol-main {
+	color: white;
+	text-align: center;
+}
+
+.bilol-main h1 {
+	font-size: 60px;
+	font-weight: 700;
+}
+
+.bilol-main-inner {
+	display: flex;
+	margin-bottom: 100px;
+	gap: 38px;
+	justify-content: center;
+	margin-top: 92px;
+}
+
+.bilol-main-inner a {
+	color: #c8c7d8;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.bilol-main-inner a:hover {
+	transition: all 0.3s ease;
+	color: #838393;
+}
+
+.bilol-round-sec-inner {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+	margin: 0 21%;
+}
+
+.bilol-round-sec-text img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	width: 100%;
+}
+
+.bilol-round-sec-text {
+	position: relative;
+	width: 392px;
+	height: 440px;
+	border-radius: 16px;
+	padding: 248px 24px 24px 24px;
+	background-color: #393953;
+}
+
+.bilol-round-sec-text p {
+	font-family: Space Mono;
+	font-size: 16px;
+	font-weight: 400;
+	color: #c8c7d8;
+	margin-top: 2%;
+}
+
+.bilol-round-sec-text h3 {
+	font-size: 24px;
+	font-weight: 700;
+	color: white;
+	margin-top: 2%;
+	margin-bottom: 26%;
+}
+
+.bilol-round-sec-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.bilol-round-sec-btn button {
+	font-size: 16px;
+	font-weight: 500;
+	color: white;
+	padding: 12px 16px 12px 16px;
+	border-radius: 7.29px;
+	border: none;
+	background-color: #393953;
+	cursor: pointer;
+	margin-top: 80px;
+}
+
+.bilol-round-sec-btn button:hover {
+	background-color: #45455c;
+}
