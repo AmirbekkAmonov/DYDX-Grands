@@ -1,15 +1,75 @@
-.hero-fnt{
-    text-align: center;
-    color: white;
+.header-faq {
+    width: 100%;
+    height: 50vh;
+    .cotainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .hdr-faq {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h1 {
+            margin-bottom: 30px;
+            font-size: 40px;
+            color: white;
+        }
+        &-nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+        
+    }
 }
-.nvbr-mnu{
-    text-decoration: none;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    margin-bottom: 50px;
-}
-.box{
-    width: 700px;
-    height: 130px;
-    background-color: red($color: #ff0000);
+
+.faq-sec {
+    width: 100%;
+    height: auto;
+    &-cards {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-bottom: 20px;
+        &-card {
+            width:100%;
+
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            background-color: #393953;
+            border-radius: 10px;
+            h2 {
+                margin-bottom: 10px;
+                color: rgb(255, 255, 255);
+                
+            }
+            p{
+                display: flex;
+                justify-content: end;
+                margin-top: -20px;
+                color: white;
+            }
+            h4{
+                color: white;
+            }
+            
+        }
+        .faq-text{
+            h3{
+                color: white;
+            }
+        }
+    }
+   
 }
