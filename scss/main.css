@@ -1105,7 +1105,7 @@ header .side-menu-footer img {
 }
 
 .amirbek {
-  height: 200px;
+  height: 130px;
 }
 .amirbek .header-nav .btn:hover {
   color: #fff;
@@ -1127,6 +1127,7 @@ header .side-menu-footer img {
   text-underline-position: from-font;
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
+  margin-top: 50px;
   margin-bottom: 150px;
 }
 
@@ -1800,7 +1801,7 @@ body {
     flex-direction: column;
   }
 }
-footer .container .footer-content {
+footer .container .temur-footer {
   display: none;
 }
 
