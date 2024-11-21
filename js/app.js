@@ -162,3 +162,22 @@ function toggleAccordion(element) {
     icon.classList.add("open");
   }
 }
+
+
+
+
+
+
+
+document.querySelectorAll('.accordion-button').forEach(button => {
+  button.addEventListener('click', function () {
+      const icon = this.querySelector('i');
+      if (this.classList.contains('collapsed')) {
+          icon.style.color = 'white'; // Yopiq holatda oq rang
+      } else {
+          icon.style.color = 'white'; // Ochiq holatda ham oq rang
+      }
+  });
+});
+
+
