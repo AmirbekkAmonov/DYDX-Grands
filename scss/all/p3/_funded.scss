@@ -12,6 +12,11 @@ body {
     max-width: 1380px;
     margin: 0 auto;
 
+    .carousel{
+        display: none;
+
+    }
+
     .form-check {
         margin-left: 50px;
 
@@ -281,7 +286,7 @@ body {
     .container {
         .nav_bar {
             .all {
-                margin-left: 30px;
+                margin-left: 10px;
             }
         }
     }
@@ -290,6 +295,30 @@ body {
 
 @media (max-width: 540px) {
     .container .section {
+p{
+    margin-bottom: 0;
+}
+        
+.all{
+    padding-bottom: 10px;
+}
+
+        .carousel{
+            display: block;
+
+            .w-100{
+                color: #FFFFFF;   
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: -0.011em;
+text-align: center;
+margin-right: 50px;
+            }
+
+           
+        }
+
         .nav_bar {
             justify-content: center;
             gap: 15px;
@@ -326,13 +355,11 @@ margin-top: 60px;
 
     
     .px_18 {
-
         font-size: 18px;
         font-weight: 400;
         line-height: 24px;
         letter-spacing: -0.014em;
         text-align: center;
-
         color: #C8C7D8;
 
         @media (max-width: 680px) {

@@ -1433,6 +1433,9 @@ body {
   max-width: 1380px;
   margin: 0 auto;
 }
+.container .carousel {
+  display: none;
+}
 .container .form-check {
   margin-left: 50px;
 }
@@ -1622,10 +1625,28 @@ body {
 }
 @media (max-width: 580px) {
   .container .nav_bar .all {
-    margin-left: 30px;
+    margin-left: 10px;
   }
 }
 @media (max-width: 540px) {
+  .container .section p {
+    margin-bottom: 0;
+  }
+  .container .section .all {
+    padding-bottom: 10px;
+  }
+  .container .section .carousel {
+    display: block;
+  }
+  .container .section .carousel .w-100 {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.011em;
+    text-align: center;
+    margin-right: 50px;
+  }
   .container .section .nav_bar {
     justify-content: center;
     gap: 15px;
